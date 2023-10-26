@@ -1,0 +1,2 @@
+NAME;FASTA_FILE
+myExperiment;/home/samba/workspace/inputs/myExperiment
