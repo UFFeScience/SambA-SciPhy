@@ -1,6 +1,6 @@
 # SAMbA - SciPhy Reproducible Example
 
-This repository includes all the files you need to reproduce the example showed in our demonstration video (see below).
+This repository includes all the files you need to reproduce the example showed in our [demonstration video (see below)](https://github.com/UFFeScience/SambA-SciPhy#a-session-recorded).
 
 To execute this scientific workflow, you need a Docker container running in your current folder.
 If you don't have the SAMbA Docker image, you can pull it from [here](https://github.com/UFFeScience/SAMbA#download-docker-image).
@@ -34,11 +34,12 @@ echo "FILE_NAME;$WORKSPACE/inputs/FILE_NAME" >> inputList.txt
 
 where ```FILE_NAME``` is the file name of the file that you want to add.
 You can find all the original and reproducible inputs in the ```inputs/``` folder.
-The web-based SAMbA-RaP dashboards will be available in your browser at ```https://localhost:8000```
+The web-based SAMbA-RaP dashboards will be available in your browser at ```https://localhost:8000```.
 
 ## A session recorded
 
 The video below shows the sequence of commands you need to reproduce this workflow once the repository was already cloned.
+
 *Note:* we renamed the Source Code directory to SourceCode (*no space in between*) to avoid possible conflicts of reserved characters.
 
 <a href="https://asciinema.org/a/ndWMECaBxT9Sdld8DuCp04fHO" target="_blank">
