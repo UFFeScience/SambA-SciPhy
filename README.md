@@ -1,8 +1,10 @@
-# SAMbA -- SciPhy Reproducible Example
+# SAMbA - SciPhy Reproducible Example
 
 This repository includes all the files you need to run the example that we showed in the demonstration video (see below).
+
 To run this scientific workflow, you need a Docker container running in your current folder.
-If you don't have the SAMbA Docker image, you can pull it from [here](https://github.com/UFFeScience/SAMbA#download-docker-image)
+If you don't have the SAMbA Docker image, you can pull it from [here](https://github.com/UFFeScience/SAMbA#download-docker-image).
+
 After saving the Docker image in the current folder, run the following command in your shell-like environment to start the SAMbA container:
 
 ```bash
