@@ -1,5 +1,7 @@
 # SAMbA - SciPhy Reproducible Example
 
+## Running the SciPhy Workflow
+
 This repository includes all the files you need to reproduce the example showed in our [demonstration video (see below)](https://github.com/UFFeScience/SambA-SciPhy#a-session-recorded).
 
 To execute this scientific workflow, you need a Docker container running in your current folder.
