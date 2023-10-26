@@ -1,8 +1,8 @@
 # SAMbA - SciPhy Reproducible Example
 
-This repository includes all the files you need to run the example that we showed in the demonstration video (see below).
+This repository includes all the files you need to reproduce the example showed in our demonstration video (see below).
 
-To run this scientific workflow, you need a Docker container running in your current folder.
+To execute this scientific workflow, you need a Docker container running in your current folder.
 If you don't have the SAMbA Docker image, you can pull it from [here](https://github.com/UFFeScience/SAMbA#download-docker-image).
 
 After saving the Docker image in the current folder, run the following command in your shell-like environment to start the SAMbA container:
@@ -15,7 +15,7 @@ docker run --cap-add mknod --cap-add sys_admin --device=/dev/fuse  \
        -v "$PWD:/home/samba/workspace" thaylongs/samba
 ```
 
-After booting the container, clone this repo then go to "SourceCode" directory and run the following commands:
+After booting the container, clone this repo and then go to "SourceCode" directory to run the following commands:
 
 ```bash
 cd $WORKSPACE
@@ -25,19 +25,21 @@ sh build.sh
 sh submit.sh
 ```
 
-If you want to change the inputs, you can change it in the ```submit.sh``` bash script adding the top  of file  command like:
+If you want to change the inputs, you can change it in the ```submit.sh``` bash script changing the top of file entry with a command as:
 
 ``` bash
 echo NAME;FASTA_FILE > inputList.txt$
 echo "FILE_NAME;$WORKSPACE/inputs/FILE_NAME" >> inputList.txt
 ```
 
-Where ```FILE_NAME``` is the file name of the file that you want to add.
+where ```FILE_NAME``` is the file name of the file that you want to add.
 You can find all the original and reproducible inputs in the ```inputs/``` folder.
+The web-based SAMbA-RaP dashboards will be available in your browser at ```https://localhost:8000```
 
 ## A session recorded
 
-The video below shows the sequence of commands you need to reproduce this workflow (*note:* We renamed the Source Code directory to SourceCode (*no space in between*) to avoid possible conflicts of reserved characters):
+The video below shows the sequence of commands you need to reproduce this workflow once the repository was already cloned.
+*Note:* we renamed the Source Code directory to SourceCode (*no space in between*) to avoid possible conflicts of reserved characters.
 
 <a href="https://asciinema.org/a/ndWMECaBxT9Sdld8DuCp04fHO" target="_blank">
 
