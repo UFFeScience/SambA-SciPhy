@@ -30,11 +30,19 @@ sh submit.sh
 If you want to change the inputs, you can change it in the ```submit.sh``` bash script changing the top of file entry with a command as:
 
 ``` bash
-echo NAME;FASTA_FILE > inputList.txt
+echo "NAME;FASTA_FILE" > inputList.txt
 echo "FILE_NAME;$WORKSPACE/inputs/FILE_NAME" >> inputList.txt
 ```
 
 where ```FILE_NAME``` is the file name of the file that you want to add.
+We provided an additional input file sample name ```myExperiment2```.
+If you wish to run the workflow with this second input example, just type:
+
+``` bash
+echo "NAME;FASTA_FILE" > inputList.txt
+echo "myExperiment2;$WORKSPACE/inputs/myExperiment2" >> inputList.txt
+```
+
 You can find all the original and reproducible inputs in the ```inputs/``` folder.
 The web-based SAMbA-RaP dashboards will be available in your browser at ```https://localhost:8000```.
 
