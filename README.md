@@ -30,7 +30,7 @@ sh submit.sh
 If you want to change the inputs, you can change it in the ```submit.sh``` bash script changing the top of file entry with a command as:
 
 ``` bash
-echo NAME;FASTA_FILE > inputList.txt$
+echo NAME;FASTA_FILE > inputList.txt
 echo "FILE_NAME;$WORKSPACE/inputs/FILE_NAME" >> inputList.txt
 ```
 
